@@ -9,5 +9,12 @@ export type AmplifyDependentResourcesAttributes = {
             "AppClientIDWeb": "string",
             "AppClientID": "string"
         }
+    },
+    "api": {
+        "reactamplified2": {
+            "GraphQLAPIKeyOutput": "string",
+            "GraphQLAPIIdOutput": "string",
+            "GraphQLAPIEndpointOutput": "string"
+        }
     }
 }
