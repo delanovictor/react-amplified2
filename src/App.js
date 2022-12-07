@@ -62,7 +62,7 @@ const App = ({ signOut, user }) => {
         style={styles.input}
         defaultValue={formState.description}
       />
-      <Button style={styles.button} onClick={addTodo}>xxxxCreate Todo</Button>
+      <Button style={styles.button} onClick={addTodo}>Dev Create Todo</Button>
       {
         todos.map((todo, index) => (
           <View key={todo.id ? todo.id : index} style={styles.todo}>
